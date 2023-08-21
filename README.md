@@ -12,3 +12,10 @@ Hardware: Hardware refers to the physical components of a computer system, inclu
 /home/vsd/Pictures/Screenshots/Screenshot from 2023-08-21 18-41-30.png
 #c program
 Writing C program using Leaf editor Writing a c program to find sum of integers from 1 to N 
+![image](https://github.com/Shubhashree359/pes_asic_class/assets/142501263/520c2ce3-c500-419b-91cd-f1e69c0bad78)
+running spike commands
+![image](https://github.com/Shubhashree359/pes_asic_class/assets/142501263/ef3945d8-4b01-4a7e-871f-47647e8831ad)
+![image](https://github.com/Shubhashree359/pes_asic_class/assets/142501263/160c57da-3eab-4450-a3ee-a96fddd758b8)
+
+
+
