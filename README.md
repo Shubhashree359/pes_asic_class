@@ -45,6 +45,7 @@ Writing C program using Leaf editor Writing a c program to find sum of integers 
 
 
 Using the gcc compiler, we compiled the program to get the output.
+
       gcc p1.c
       ./a.out
 
