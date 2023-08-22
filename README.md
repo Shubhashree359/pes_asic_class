@@ -25,28 +25,28 @@ LABWORK FOR RISCV TOOLCHAIN
 #c program
 Writing C program using Leaf editor Writing a c program to find sum of integers from 1 to N
 
-  #include<stdio.h>
+     #include<stdio.h>
 
-  int main(){
+     int main(){
   
-	int i, sum=0, n=111;
+	   int i, sum=0, n=111;
  
-	for (i=1;i<=n; ++i) {
+	   for (i=1;i<=n; ++i) {
  
-	sum +=i;
+	   sum +=i;
+    
+	   }
  
-	}
+	   printf("Sum of numbers from 1 to %d is %d \n",n,sum);
  
-	printf("Sum of numbers from 1 to %d is %d \n",n,sum);
+	   return 0;
  
-	return 0;
- 
-   }
+      }
 
 
 Using the gcc compiler, we compiled the program to get the output.
-gcc p1.c
-./a.out
+      gcc p1.c
+      ./a.out
 
 ![image](https://github.com/Shubhashree359/pes_asic_class/assets/142501263/fdb29805-3ef4-415e-88fa-b8b00db6081a)
 
@@ -55,13 +55,13 @@ gcc p1.c
 RISCV GCC compiler and disassemble
 
 Using the RISC-V GCC compiler, we compiled the C program.
-riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o p1.o p1.c
+    riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o p1.o p1.c
 Using ls -ltr p1.c we can check that the object file is created.
 
 ![image](https://github.com/Shubhashree359/pes_asic_class/assets/142501263/8565458b-896b-4613-a34e-f9ea96c126a0)
 
 to get dissembled ALP code
-use: riscv64-unknown-elf-objdump -d p1.o | less 
+    use: riscv64-unknown-elf-objdump -d p1.o | less 
 
 In order to view the main section, type /main
 
