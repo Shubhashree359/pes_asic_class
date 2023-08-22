@@ -25,16 +25,23 @@ LABWORK FOR RISCV TOOLCHAIN
 #c program
 Writing C program using Leaf editor Writing a c program to find sum of integers from 1 to N
 
-#include<stdio.h>
+  #include<stdio.h>
 
-int main(){
+  int main(){
+  
 	int i, sum=0, n=111;
+ 
 	for (i=1;i<=n; ++i) {
+ 
 	sum +=i;
+ 
 	}
+ 
 	printf("Sum of numbers from 1 to %d is %d \n",n,sum);
+ 
 	return 0;
-}
+ 
+   }
 
 
 Using the gcc compiler, we compiled the program to get the output.
@@ -98,31 +105,31 @@ Load, Add and Store Instructions:
 
 Example 1: ld x7, 8(x5)
 
- *ld is the load double-word instruction.
+    *ld is the load double-word instruction.
  
- *x7 is the destination register.
+    *x7 is the destination register.
  
- *8(x5) is the memory address pointed to by register x5 (base address + offset).
+    *8(x5) is the memory address pointed to by register x5 (base address + offset).
  
 Store Instructions: Store instructions are used to write data from registers into memory.They store values from registers into memory addresses
 
 Example2: sd x5, 8(x9)
 
- *sd is the store double-word instruction.
+    *sd is the store double-word instruction.
  
- *x5 is the source register.
+    *x5 is the source register.
  
- *8(x9) is the memory address pointed to by register x9 (base address + offset).
+    *8(x9) is the memory address pointed to by register x9 (base address + offset).
  
 Add Instructions: Add instructions are used to perform addition operations on registers. They add the values of two source registers and store the result in a destination register.
 
 Example 3: add x9, x1, x11
 
- *add is the add instruction.
+    *add is the add instruction.
  
- *x9 is the destination register.
+    *x9 is the destination register.
  
- *x1 and x11 are the source registers.
+    *x1 and x11 are the source registers.
 
 LABWORK:
 
