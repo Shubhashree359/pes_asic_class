@@ -1,5 +1,9 @@
 VLSI Physical design for ASICs
 
+
+DAY1
+
+
 Introduction:
 
 Basic Definition:
@@ -96,6 +100,10 @@ WrIte a C program pg3.cthat shows the maximum and minimum values of 64bit Unsign
 
 ![image](https://github.com/Shubhashree359/pes_asic_class/assets/142501263/6315bbbb-213d-4631-91f3-fc0b1c88ada3)
 
+
+DAY 2
+
+
 Application Binary Interface
 
 Introduction to ABI:
@@ -166,3 +174,33 @@ Execution: To execute the object file run the command
 spike pk p3.o
 
 ![image](https://github.com/Shubhashree359/pes_asic_class/assets/142501263/94daf004-62a8-4b73-9ab3-2fa96812899f)
+
+
+
+DAY 3
+
+Introduction to Verilog RTL design and Synthesis
+
+Introduction to Open-Source Simulator iVerilog
+
+Introduction to iVerilog Design Testbench
+
+Simulator:
+
+ *It is a tool used for simulating the design. It looks for the changes on the input signals to evaluate the outputs.
+ 
+ *If there is no change in the inputs, the simulator doesn't evaluate the outputs.
+ 
+ *RTL is checked for adherence to the spec by simulating the design.
+ 
+ *The tool used here is iverilog .
+
+
+iVerilog :
+
+	It is an open-source Verilog simulator used for testing and simulating digital circuit designs described in the Verilog hardware description language (HDL).
+ 
+	Both the design and the testbench are fed to the simulator and it produces a vcd (value change dump) file.
+ 
+	In order to view the vcd file, we use the GTKwave where we can see the wave forms.
+
