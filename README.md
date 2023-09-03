@@ -637,6 +637,4 @@ D Flip_Flop with Asynchronous Set
     * iverilog dff_async_set.v tb_dff_async_set.v
     * ./a.out
     * gtkwave tb_dff_async_set.vcd
-        * dd
-        * rtht
-        * 
+       
